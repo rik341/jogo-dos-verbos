@@ -1,0 +1,108 @@
+/* Corpo centralizado e com gradiente suave */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Caixa do jogo */
+.container {
+  background-color: #ffffff;
+  padding: 30px 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Título */
+h1 {
+  color: #2c3e50;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+/* Explicação inicial */
+.explanation {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Enunciado da pergunta */
+.prompt {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px 0;
+  color: #2c3e50;
+}
+
+/* Campo de entrada */
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  width: 80%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  outline: none;
+}
+
+/* Botões */
+button {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+  a.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+a.button-link:hover {
+  background-color: #2980b9;
+  transform: translateY(-3px);
+}
+/* Feedback de resposta */
+.message {
+  font-weight: bold;
+  margin-top: 15px;
+  min-height: 24px;
+  font-size: 16px;
+}
+
+/* Pontuação e vidas */
+.status {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Botão de reinício (oculto por padrão) */
+#restartBtn {
+  display: none;
+}
