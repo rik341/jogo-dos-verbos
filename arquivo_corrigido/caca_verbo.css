@@ -152,28 +152,6 @@ a.button-link:hover {
     min-height: 27px;
   }
   @media (max-width: 480px) {
-  h1 {
-    font-size: 2.2rem;
-    text-align: center;
-  }
-
-  .link-box {
-    width: 90vw;
-    padding: 1rem;
-  }
-
-  .link-box a {
-    font-size: 1rem;
-    padding: 0.6rem 1rem;
-  }
-
-  .floating-image {
-    display: none;
-  }
-}
-
-/* Adições ao final de caca_verbo.css */
-@media (max-width: 480px) {
   body {
     padding: 1rem;
   }
@@ -200,32 +178,6 @@ a.button-link:hover {
 
   .word-item {
     font-size: 0.9rem;
-  }
-
-  button, a.button-link {
-    font-size: 0.9rem;
-    padding: 8px 14px;
-  }
-}
-
-/* Adições ao final de transformacao_verbal.css */
-@media (max-width: 480px) {
-  .container {
-    padding: 1.5rem;
-    width: 90vw;
-  }
-
-  h1 {
-    font-size: 1.5rem;
-  }
-
-  .explanation, .prompt, .message, .status {
-    font-size: 0.9rem;
-  }
-
-  input[type="text"] {
-    font-size: 0.9rem;
-    width: 95%;
   }
 
   button, a.button-link {

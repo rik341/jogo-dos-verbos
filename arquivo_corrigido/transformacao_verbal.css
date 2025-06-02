@@ -106,65 +106,7 @@ a.button-link:hover {
 #restartBtn {
   display: none;
 }
-@media (max-width: 480px) {
-  h1 {
-    font-size: 2.2rem;
-    text-align: center;
-  }
-
-  .link-box {
-    width: 90vw;
-    padding: 1rem;
-  }
-
-  .link-box a {
-    font-size: 1rem;
-    padding: 0.6rem 1rem;
-  }
-
-  .floating-image {
-    display: none;
-  }
-}
-
-/* Adições ao final de caca_verbo.css */
-@media (max-width: 480px) {
-  body {
-    padding: 1rem;
-  }
-
-  h1 {
-    font-size: 2rem;
-    text-align: center;
-  }
-
-  .game-container {
-    padding: 1rem;
-  }
-
-  .grid {
-    grid-template-columns: repeat(10, 1fr);
-    gap: 2px;
-  }
-
-  .cell {
-    width: 28px;
-    height: 28px;
-    font-size: 0.8rem;
-  }
-
-  .word-item {
-    font-size: 0.9rem;
-  }
-
-  button, a.button-link {
-    font-size: 0.9rem;
-    padding: 8px 14px;
-  }
-}
-
-/* Adições ao final de transformacao_verbal.css */
-@media (max-width: 480px) {
+ @media (max-width: 480px) {
   .container {
     padding: 1.5rem;
     width: 90vw;
